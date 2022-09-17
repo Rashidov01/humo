@@ -7,6 +7,14 @@ export default function layout({ children }) {
   return (
     <>
       <div className="site-intro">
+        <video
+          className="video"
+          src="/assets/images/hero.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        ></video>
         <header className="header">
           <Header />
         </header>
