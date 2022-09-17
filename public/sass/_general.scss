@@ -1,0 +1,90 @@
+/* GENERAL */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 27px;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+main {
+  min-height: 72vh;
+  flex-grow: 1;
+}
+
+.site-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+img {
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #16213e;
+  border: 0px none #ffffff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(59, 89, 152, 0.7);
+}
+::-webkit-scrollbar-thumb:active {
+  background: #229ed9;
+}
+::-webkit-scrollbar-track {
+  background: #5f6f94;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #e1e1e1;
+}
+::-webkit-scrollbar-track:active {
+  background: #fff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+//title and texts
+
+.section-title {
+  margin-bottom: 50px;
+  color: $blue-color;
+  font-size: 2.5em;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}

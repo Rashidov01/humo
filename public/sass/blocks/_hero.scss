@@ -1,0 +1,49 @@
+.site-intro {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../assets/images/hero.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.site-hero {
+  text-align: center;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.site-hero__title {
+  font-size: 4.5em;
+  font-weight: 400;
+  color: $light;
+  text-transform: uppercase;
+}
+
+.site-hero__text {
+  width: 600px;
+  color: $light-blue;
+  font-size: 2em;
+  line-height: 32px;
+}
