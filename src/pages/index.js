@@ -10,7 +10,7 @@ export default function Home() {
         <h2 className="travel__title section-title">Travel with us</h2>
         <div className="travel-container">
           <div className="travel-container__left">
-            <h3 className="travel-container__title">Arabic travel</h3>
+            <h3 className="travel-container__title">National travel</h3>
             <div className="travel-container__info info">
               <h4 className="info__title">travel info</h4>
               <ul className="info__list">
@@ -43,15 +43,15 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/arab.png" />
-              <Card image="/assets/images/arab2.png" />
-              <Card image="/assets/images/arab3.png" />
+              <Card image="/assets/images/nation.png" />
+              <Card image="/assets/images/nation2.png" />
+              {/* <Card image="/assets/images/arab3.png" /> */}
             </CardSlider>
           </div>
         </div>
         <div className="travel-container">
           <div className="travel-container__left">
-            <h3 className="travel-container__title">uae travel</h3>
+            <h3 className="travel-container__title">Arabic travel</h3>
             <div className="travel-container__info info">
               <h4 className="info__title">travel info</h4>
               <ul className="info__list">
@@ -72,9 +72,12 @@ export default function Home() {
           </div>
           <div className="travel-container__right">
             <CardSlider>
+              <Card image="/assets/images/arabia.png" />
               <Card image="/assets/images/dubai.png" />
-              <Card image="/assets/images/dubai2.png" />
+              <Card image="/assets/images/arabia2.png" />
+              <Card image="/assets/images/arab2.png" />
               <Card image="/assets/images/dubai3.png" />
+              <Card image="/assets/images/arab.png" />
             </CardSlider>
           </div>
         </div>
@@ -109,6 +112,7 @@ export default function Home() {
                   </p>
                 </li>
               </ul>
+              <span className="info__price price">1200$</span>
             </div>
           </div>
           <div className="travel-container__right">

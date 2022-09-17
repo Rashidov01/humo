@@ -5,8 +5,6 @@
 .travel-container {
   width: 100%;
   display: flex;
-  // align-items: center;
-  // justify-content: space-between;
 
   &:nth-child(even) {
     flex-direction: row-reverse;
@@ -50,6 +48,7 @@
 
 .info__list {
   @include list-unstyled;
+  margin-bottom: 45px;
 }
 
 .info__text {
@@ -60,8 +59,23 @@
 
 .info__item {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 
   &:last-child {
     margin-bottom: 0;
   }
+
+  &::before {
+    margin-right: 15px;
+    width: 5px;
+    height: 5px;
+    background-color: $blue-color;
+    content: "";
+  }
+}
+
+.info__price {
+  font-size: 3em;
+  color: $dark-blue;
 }
