@@ -1,4 +1,4 @@
-import Image from "next/image";
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React from "react";
 
@@ -8,7 +8,7 @@ export default function Header() {
       <div className="site-header container">
         <Link href="/">
           <a>
-            <Image
+            <img
               src="/assets/icons/logo.png"
               alt="site logo"
               width="40"
