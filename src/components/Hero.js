@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Hero() {
@@ -10,6 +11,29 @@ export default function Hero() {
           officiis impedit atque enim pariatur quo quae ducimus vitae quod
           magni?
         </p>
+        <ul className="social">
+          <li className="social__item">
+            <Link href="#">
+              <a className="social__link">
+                <i class="social__icon bx bxl-telegram"></i>
+              </a>
+            </Link>
+          </li>
+          <li className="social__item">
+            <Link href="#">
+              <a className="social__link">
+                <i class="social__icon bx bxl-instagram"></i>
+              </a>
+            </Link>
+          </li>
+          <li className="social__item">
+            <Link href="#">
+              <a className="social__link">
+                <i class="social__icon bx bxl-facebook"></i>
+              </a>
+            </Link>
+          </li>
+        </ul>
       </div>
     </>
   );

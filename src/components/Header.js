@@ -24,7 +24,7 @@ export default function Header() {
           </li>
           <li className="nav__item">
             <Link href="#travel">
-              <a className="nav__link">travel information</a>
+              <a className="nav__link">travel</a>
             </Link>
           </li>
           <li className="nav__item">

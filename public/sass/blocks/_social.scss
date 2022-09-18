@@ -1,0 +1,27 @@
+.social {
+  @include list-unstyled;
+  display: flex;
+  align-items: center;
+}
+
+.social__item {
+  margin-right: 20px;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.social__link {
+  transition: all ease 0.4s;
+  display: block;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.social__icon {
+  font-size: 2.4em;
+  color: $light;
+}

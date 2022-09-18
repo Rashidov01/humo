@@ -1,5 +1,5 @@
 .travel {
-  padding: 60px 0;
+  padding: 45px 0;
 }
 
 .travel-container {
@@ -78,4 +78,48 @@
 .info__price {
   font-size: 3em;
   color: $dark-blue;
+}
+
+@include breakpoint-down(1240px) {
+  .travel-container__left {
+    width: 40%;
+    max-width: 40%;
+  }
+
+  .travel-container__right {
+    width: 60%;
+    max-width: 60%;
+  }
+
+  .card-image {
+    height: 600px;
+  }
+}
+
+@include breakpoint-down(1100px) {
+  .travel-container {
+    flex-direction: column-reverse;
+
+    &:nth-child(even) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .travel-container__left,
+  .travel-container__right {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@include breakpoint-down(820px) {
+  .card-image {
+    height: 400px;
+  }
+}
+
+@include breakpoint-down(420px) {
+  .card-image {
+    height: 280px;
+  }
 }

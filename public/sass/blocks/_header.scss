@@ -39,3 +39,17 @@
     color: $light-blue;
   }
 }
+
+@include breakpoint-down(640px) {
+  .site-header {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin-top: 15px;
+  }
+
+  .site-hero__text {
+    max-width: 100%;
+  }
+}

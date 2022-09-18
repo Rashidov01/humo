@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import Footer from "./Footer";
 import Hero from "./Hero";
 
 export default function layout({ children }) {
@@ -23,9 +22,6 @@ export default function layout({ children }) {
         </div>
       </div>
       <main className="main">{children}</main>
-      <footer className="footer">
-        <Footer />
-      </footer>
     </>
   );
 }

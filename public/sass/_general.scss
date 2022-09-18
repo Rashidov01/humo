@@ -88,3 +88,9 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
+
+@include breakpoint-down(760px) {
+  body {
+    font-size: 8px;
+  }
+}
