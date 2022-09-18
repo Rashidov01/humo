@@ -27,6 +27,10 @@
   text-decoration: none;
   font-size: 1.4em;
   color: $dark;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 .contact-wrapper__text {
