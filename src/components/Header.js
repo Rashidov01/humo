@@ -18,23 +18,18 @@ export default function Header() {
         </Link>
         <ul className="site-header__nav nav">
           <li className="nav__item">
-            <Link href="/">
-              <a className="nav__link">About</a>
-            </Link>
-          </li>
-          <li className="nav__item">
             <Link href="#travel">
-              <a className="nav__link">travel</a>
+              <a className="nav__link">О НАС</a>
             </Link>
           </li>
           <li className="nav__item">
             <Link href="#reason">
-              <a className="nav__link">Reason</a>
+              <a className="nav__link">ВЫГОДНЫЕ ЦЕНЫ</a>
             </Link>
           </li>
           <li className="nav__item">
             <Link href="#contact">
-              <a className="nav__link">Contact us</a>
+              <a className="nav__link">КОНТАКТЫ</a>
             </Link>
           </li>
         </ul>

@@ -7,142 +7,170 @@ export default function Home() {
   return (
     <>
       <section id="travel" className="travel">
-        <h2 className="travel__title section-title">Travel with us</h2>
+        <h2 className="travel__title section-title">путешествуй с нами</h2>
         <div className="travel-container">
-          <div className="travel-container__left">
-            <h3 className="travel-container__title">National travel</h3>
+          <div className="travel-container__left left-arabic">
+            <h3 className="travel-container__title">
+              Экскурсионный групповой тур по Саудовской Аравии
+            </h3>
             <div className="travel-container__info info">
-              <h4 className="info__title">travel info</h4>
               <ul className="info__list">
                 <li className="info__item">
+                  <p className="info__text">Медина - 5 ночей.</p>
+                </li>
+                <li className="info__item">
+                  <p className="info__text">Мекка -11 ночей.</p>
+                </li>
+                <li className="info__item">
                   <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Velit, odio.
+                    Джидда - в рамках однодневной экскурсии.
                   </p>
                 </li>
                 <li className="info__item">
                   <p className="info__text">
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Sequi, id.
-                  </p>
-                </li>
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Placeat, officia?
-                  </p>
-                </li>
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quo, dolore!
+                    Таиф (город роз) - в рамках однодневной экскурсии.
                   </p>
                 </li>
               </ul>
-              <span className="info__price price">1200$</span>
             </div>
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/nation.png" />
-              <Card image="/assets/images/nation2.png" />
-            </CardSlider>
-          </div>
-        </div>
-        <div className="travel-container">
-          <div className="travel-container__left">
-            <h3 className="travel-container__title">Arabic travel</h3>
-            <div className="travel-container__info info">
-              <h4 className="info__title">travel info</h4>
-              <ul className="info__list">
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus rem ullam eos.
-                  </p>
-                </li>
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus rem ullam eos.
-                  </p>
-                </li>
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus rem ullam eos.
-                  </p>
-                </li>
-                <li className="info__item">
-                  <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ducimus rem ullam eos.
-                  </p>
-                </li>
-              </ul>
-              <span className="info__price price">1200$</span>
-            </div>
-          </div>
-          <div className="travel-container__right">
-            <CardSlider>
-              <Card image="/assets/images/arabia.png" />
-              <Card image="/assets/images/dubai.png" />
               <Card image="/assets/images/arabia2.png" />
-              <Card image="/assets/images/arab2.png" />
-              <Card image="/assets/images/dubai3.png" />
-              <Card image="/assets/images/arab.png" />
+              <Card image="/assets/images/arab4.png" />
+              <Card image="/assets/images/arab5.png" />
             </CardSlider>
           </div>
         </div>
         <div className="travel-container">
-          <div className="travel-container__left">
-            <h3 className="travel-container__title">europe travel</h3>
+          <div className="travel-container__left left-text">
+            <h3 className="travel-container__title">
+              УСПЕЙТЕ ЗАБРОНИРОВАТЬ СО СКИДКОЙ
+            </h3>
             <div className="travel-container__info info">
-              <h4 className="info__title">travel info</h4>
               <ul className="info__list">
                 <li className="info__item">
                   <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Vel, provident.
+                    <strong>Медина </strong> - второй по значимости город
+                    ислама, в центре города находится мечеть Аль
+                    Масжидан-Набави, ее построил сам Пророк, поэтому она также
+                    известна как мечеть Пророка.
                   </p>
                 </li>
                 <li className="info__item">
                   <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Vel, provident.
+                    <strong>Мекка</strong> - Это священный исламский город:
+                    место рождения Пророка Мухаммеда и город, где ему впервые
+                    был ниспослан Коран.
                   </p>
                 </li>
                 <li className="info__item">
                   <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Vel, provident.
+                    <strong>Джидда</strong> - важный торговый порт и второй по
+                    величине город королевства.
                   </p>
                 </li>
                 <li className="info__item">
                   <p className="info__text">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Vel, provident.
+                    <strong>Таиф (город роз)</strong> - В горах Таифа
+                    произрастают розы с особым ароматом. Выращивание роз
+                    представляет неотъемлемую часть экономики и культуры Таифа.
+                    Вокруг города роз расположено более 900 цветочных ферм.
                   </p>
                 </li>
               </ul>
-              <span className="info__price price">1200$</span>
             </div>
           </div>
           <div className="travel-container__right">
             <CardSlider>
-              <Card image="/assets/images/europe.png" />
-              <Card image="/assets/images/europe2.png" />
-              <Card image="/assets/images/europe3.png" />
+              <Card image="/assets/images/arab6.png" />
+              <Card image="/assets/images/arab7.png" />
+            </CardSlider>
+          </div>
+        </div>
+        <div className="travel-container">
+          <div className="travel-container__left left-deco">
+            <h3 className="travel-container__title left-deco-title">
+              ЦЕНЫ И ДАТЫ УЖЕ В СИСТЕМЕ И ДОСТУПНЫ К БРОНИРОВАНИЮ!
+            </h3>
+            <div className="travel-container__info info">
+              <h4 className="info__title left-deco-title">
+                В стоимость включено:
+              </h4>
+              <ul className="info__list">
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">Виза</p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Трансфер : встреча-проводы
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Проживание в отелях 3/4*
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">Питание (НB)</p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Услуги лицензированного гида на всех экскурсиях
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Транспорт по всему маршруту
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Экскурсия на красное море
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Входные билеты на все достопримечательности
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div className="travel-container__info info">
+              <h4 className="info__title left-deco-title">
+                Приятный бонус каждому туристу в подарок:
+              </h4>
+              <ul className="info__list">
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">Священный Коран</p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">
+                    Вода Зам-Зам - 5 литров
+                  </p>
+                </li>
+                <li className="info__item left-deco-item">
+                  <p className="info__text left-deco-text">Ручная сумка</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="travel-container__right">
+            <CardSlider>
+              <Card image="/assets/images/arab8.png" />
+              <Card image="/assets/images/arab2.png" />
             </CardSlider>
           </div>
         </div>
       </section>
       <section id="reason" className="reason">
-        <h2 className="reson__title section-title">Reason</h2>
+        <h2 className="reson__title section-title">ПОЧЕМУ МЫ?</h2>
         <div className="reason-container container">
           <div className="reason-container__box reason-box">
             <i class="reason-box__icon bx bx-support"></i>
-            <span className="reason-box__text">24 / 7 support</span>
+            <span className="reason-box__text">
+              Линия поддержки туристов 24/7
+            </span>
           </div>
           <div className="reason-container__box reason-box">
             <i class="reason-box__icon bx bxs-plane-alt"></i>
@@ -152,7 +180,7 @@ export default function Home() {
           </div>
           <div className="reason-container__box reason-box">
             <i class="reason-box__icon bx bxs-user-badge"></i>
-            <span className="reason-box__text">Тур ВСЕ ВКЛЮЧЕНО </span>
+            <span className="reason-box__text">Тур ВСЕ ВКЛЮЧЕНО</span>
           </div>
           <div className="reason-container__box reason-box">
             <div className="reason-box-inner">
@@ -172,12 +200,12 @@ export default function Home() {
               />
               <i class="reason-icon bx bxs-dollar-circle"></i>
             </div>
-            <span className="reason-box__text">Payment types</span>
+            <span className="reason-box__text">Способ оплаты</span>
           </div>
         </div>
       </section>
       <section id="contact" className="contact">
-        <h2 className="contact__title section-title">Contact us</h2>
+        <h2 className="contact__title section-title">свяжитесь с нами</h2>
         <div className="contact-container container">
           <div className="contact-container__wrapper contact-wrapper">
             <div className="contact-wrapper__holder">
@@ -189,9 +217,7 @@ export default function Home() {
                 height="25"
               />
               <Link href="#">
-                <a className="contact-wrapper__link">
-                  humotouropertor@gmail.com
-                </a>
+                <a className="contact-wrapper__link">info@humotouroperat.uz.</a>
               </Link>
             </div>
             <div className="contact-wrapper__holder">
@@ -202,8 +228,8 @@ export default function Home() {
                 width="25"
                 height="25"
               />
-              <Link href="+998900000250">
-                <a className="contact-wrapper__link">+998900000250</a>
+              <Link href="+998991102121">
+                <a className="contact-wrapper__link">+998991102121</a>
               </Link>
             </div>
             <div className="contact-wrapper__holder">
@@ -215,7 +241,7 @@ export default function Home() {
                 height="25"
               />
               <address className="contact-wrapper__text">
-                palonchi pistonchi kochasi 12A uy
+                Tashkent sh, Chilonzor lutfiy 94
               </address>
             </div>
           </div>

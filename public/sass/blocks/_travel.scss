@@ -15,7 +15,7 @@
 
 .travel-container__left {
   padding: 40px;
-  max-width: 30%;
+  min-width: 30%;
   width: 30%;
   background-color: #f9f7f7;
   display: flex;
@@ -23,8 +23,43 @@
   justify-content: center;
 }
 
+.left-arabic {
+  background-image: url(../../assets/icons/arabic-logo.webp),
+    url(../../assets/icons/plane.svg);
+  background-repeat: no-repeat;
+  background-size: 180px 140px, 250px 250px;
+  background-position: top center, bottom left;
+}
+
+.left-text {
+  background-image: url(../../assets/icons/arabic-text.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom right;
+}
+
+.left-deco {
+  background-color: #354259;
+  background-image: url(../../assets/icons/arabic-text2.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom left;
+}
+
+.left-deco-item::before {
+  background-color: $light-blue !important;
+}
+
+.left-deco-title {
+  color: $light-blue !important;
+}
+
+.left-deco-text {
+  color: $light !important;
+}
+
 .travel-container__right {
-  max-width: 70%;
+  min-width: 70%;
   width: 70%;
 }
 
@@ -34,6 +69,7 @@
   color: $blue-color;
   font-size: 2.4em;
   font-weight: 700;
+  line-height: 40px;
   text-transform: uppercase;
 }
 
@@ -42,7 +78,7 @@
   margin-bottom: 5px;
   color: $blue-color;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: capitalize;
 }
 
@@ -55,6 +91,7 @@
   margin: 0;
   color: $dark;
   font-size: 1.5em;
+  width: 100%;
 }
 
 .info__item {
@@ -68,9 +105,10 @@
 
   &::before {
     margin-right: 15px;
-    width: 5px;
-    height: 5px;
+    width: 6px;
+    height: 6px;
     background-color: $blue-color;
+    transform: rotate(45deg);
     content: "";
   }
 }
@@ -81,22 +119,6 @@
 }
 
 @include breakpoint-down(1240px) {
-  .travel-container__left {
-    width: 40%;
-    max-width: 40%;
-  }
-
-  .travel-container__right {
-    width: 60%;
-    max-width: 60%;
-  }
-
-  .card-image {
-    height: 600px;
-  }
-}
-
-@include breakpoint-down(1100px) {
   .travel-container {
     flex-direction: column-reverse;
 
@@ -105,10 +127,18 @@
     }
   }
 
+  .left-arabic {
+    background: none;
+  }
+
   .travel-container__left,
   .travel-container__right {
     width: 100%;
     max-width: 100%;
+  }
+
+  .card-image {
+    height: 600px;
   }
 }
 

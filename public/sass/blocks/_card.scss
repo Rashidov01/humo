@@ -1,8 +1,25 @@
 .card {
   width: 100%;
+  height: 940px;
 }
 
 .slick-arrow,
 .slick-next::before {
   display: none !important;
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.slick-slide img {
+  height: 100%;
+}
+
+@include breakpoint-down(1240px) {
+  .card {
+    height: auto;
+  }
 }

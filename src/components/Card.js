@@ -5,13 +5,7 @@ export default function card({ image }) {
   return (
     <>
       <div className="card">
-        <img
-          className="card-image"
-          src={image}
-          alt="box image"
-          width="1300"
-          height="800"
-        />
+        <img className="card-image" src={image} alt="box image" />
       </div>
     </>
   );
