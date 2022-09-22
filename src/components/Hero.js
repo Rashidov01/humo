@@ -9,15 +9,15 @@ export default function Hero() {
         <p className="site-hero__text">ПУТЕШЕСТВИЕ В КОРОЛЕВСТВО САУДИИ</p>
         <ul className="social">
           <li className="social__item">
-            <Link href="#">
-              <a className="social__link">
+            <Link href="https://t.me/Humo_Groupp" target="_blank">
+              <a className="social__link" target="_blank">
                 <i class="social__icon bx bxl-telegram"></i>
               </a>
             </Link>
           </li>
           <li className="social__item">
-            <Link href="#">
-              <a className="social__link">
+            <Link href="https://www.instagram.com/humogroup/">
+              <a className="social__link" target="_blank">
                 <i class="social__icon bx bxl-instagram"></i>
               </a>
             </Link>

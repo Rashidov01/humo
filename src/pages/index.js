@@ -248,15 +248,15 @@ export default function Home() {
           <div className="contact-wrapper__container">
             <ul className="social">
               <li className="social__item">
-                <Link href="#">
-                  <a className="social__link">
+                <Link href="https://t.me/Humo_Groupp" target="_blank">
+                  <a className="social__link" target="_blank">
                     <i class="social__icon social-icon-contact bx bxl-telegram"></i>
                   </a>
                 </Link>
               </li>
               <li className="social__item">
-                <Link href="#">
-                  <a className="social__link">
+                <Link href="https://www.instagram.com/humogroup/">
+                  <a className="social__link" target="_blank">
                     <i class="social__icon social-icon-contact bx bxl-instagram"></i>
                   </a>
                 </Link>
